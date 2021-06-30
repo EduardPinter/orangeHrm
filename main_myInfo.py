@@ -24,7 +24,7 @@ class CheckoutAssertation(unittest.TestCase):
         self.driver.implicitly_wait(5)
         self.driver.maximize_window()
 
-    def test_hover_elements(self):
+    def test_my_info(self):
         loginPage = LoginPage(self.driver)
         loginPage.system_login()
         mainPage = MainPage(self.driver)
